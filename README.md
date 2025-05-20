@@ -1,2 +1,4 @@
 # inty.cc
-Landing site of InTy, the portal to empathetic AI
+
+Landing site at https://inty.cc, the portal to empathetic AI.
+This is a static html file for now.
