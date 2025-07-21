@@ -16,7 +16,7 @@ jobs:
           echo "Hello World! This is a placeholder for the deployment action."
       - name: Write Summary
         run: |
-          echo "Repository: ${{ github.repository }}" >> $GITHUB_STEP_SUMMARY
+          echo "## Deployed commit: ${{ github.short_sha }}" >> $GITHUB_STEP_SUMMARY
           echo "Branch: ${{ github.ref_name }}" >> $GITHUB_STEP_SUMMARY
           echo "Commit: ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
           echo "Triggered by: ${{ github.actor }}" >> $GITHUB_STEP_SUMMARY
